@@ -1,26 +1,6 @@
-{
-  "name": "typescript-project",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "@types/react": "^19.2.14",
-    "@types/react-dom": "^19.2.3",
-    "react": "^19.2.5",
-    "react-dom": "^19.2.5",
-    "typescript": "^6.0.3"
-  },
-  "devDependencies": {
-    "@vitejs/plugin-react": "^6.0.1",
-    "vite": "^8.0.10"
-  }
+"scripts": {
+  "dev": "vite",
+  "build": "vite build",
+  "start": "serve -s dist",
+  "preview": "vite preview"
 }
